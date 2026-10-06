@@ -7,6 +7,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
+    /* Remplacement du fond par un gradient vert moderne */
+    body {
+        background: linear-gradient(135deg, #1e3f20 0%, #3c783c 100%) !important;
+        background-attachment: fixed !important;
+    }
+
     /* Modification des infobulles (tooltips) du menu */
     #nav a span {
         background: #ffffff !important;
@@ -17,6 +23,7 @@
     #nav a span:after {
         border-top-color: #ffffff !important;
     }
+    
     /* Style pour les cartes de documents sans image */
     .doc-card {
         background: #f4f4f4;
@@ -83,7 +90,7 @@
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="CV.pdf" target="_blank" class="doc-card">
 												<i class="icon solid fa-file-pdf"></i>
-												<h3>Mon CV</h3>
+												<h3>CV</h3>
 											</a>
 											<p style="text-align: center; font-size: 0.9em;">Consulter ou télécharger mon CV.</p>
 										</div>
@@ -92,16 +99,16 @@
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="portfolio.pdf" target="_blank" class="doc-card">
 												<i class="icon solid fa-file-alt"></i>
-												<h3>Mon Portfolio</h3>
+												<h3>Portfolio</h3>
 											</a>
-											<p style="text-align: center; font-size: 0.9em;">Aperçu de mes travaux et réalisations techniques.</p>
+											<p style="text-align: center; font-size: 0.9em;">Consulter ou télécharger mes travaux et réalisations techniques.</p>
 										</div>
 
 										<!-- Rapport au format carte avec icône -->
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="rapport-de-stage.pdf" target="_blank" class="doc-card">
 												<i class="icon solid fa-file-contract"></i>
-												<h3>Rapport de stage M1</h3>
+												<h3>Rapport de stage de M1</h3>
 											</a>
 											<p style="text-align: center; font-size: 0.9em;">Assistant Ingénieur au LAMSI (ÉTS Montréal) sur l'étude de gradation de structures lattices en NiTi.</p>
 										</div>
